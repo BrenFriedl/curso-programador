@@ -1,4 +1,3 @@
-pan 
+pan
 carne
-leche
 banana palta
