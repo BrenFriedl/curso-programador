@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    color: darkblue;
+}
+h3{
+    position: relative;
+    left: 230px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
