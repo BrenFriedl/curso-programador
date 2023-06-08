@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ej.js">
+    <style>
+        .boton-a {
+            background-color: aquamarine;
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            padding: 35PX;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
+
+        }
+        .boton-b {
+            background-color: deeppink;
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            padding: 35px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
+        }
+        .boton-c {
+            background-color: violet;
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            padding: 35px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
+        }
+        .contenedor{
+            display: flex;
+        }
+
+    </style>
+
+    <script>
+        function CambiarFondo(color) {
+            document.querySelector('body').style.background = color
+        }
+    </script>
+
+</head> 
+<body>
+    <div class "contenedor">
+        <div class="boton-a" onclick="CambiarFondo('aquamarine')"></div>
+        <div class="boton-b" onclick="CambiarFondo('deeppink')"></div>
+        <div class="boton-c" onclick="CambiarFondo('violet')"></div>
+    </div>
+   
+</body>
+</html>
